@@ -190,10 +190,22 @@ h5 {
   z-index: 1;
   width: 52%;
   height: 400px;
-  background-color: green;
 }
 #corps5 > .bloctxt {
   position: relative;
-  text-align: center;
-  font-size: 35px;
+  margin-left: 18%;
+  top: 20%;
+  font-size: 32px;
+  width: 350px;
+}
+#corps5 > .bloctxt > p:nth-child(2), p:last-child {
+  font-size: 18px;
+}
+#corps5 > .blocviolet {
+  position: relative;
+  left: 100%;
+  top: -70%;
+  width: 450px;
+  height: 500px;
+  background-color: darkblue;
 }
