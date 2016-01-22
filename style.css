@@ -1,0 +1,199 @@
+html, body {
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  position: relative;
+  height: 550px;
+  background: url(images/payments-banner-graphic.png);
+  color: white;
+}
+#bb {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  font-size: 25px;
+  margin-left: 2%;
+  position: absolute;
+  margin-top: 2%;
+}
+span:first-child {
+  margin-left: 5px;
+}
+.bons {
+  margin-left: 20px;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+.log, .sinup {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  position: absolute;
+}
+.log {
+  margin-left: 80%;
+  margin-top: 2%;
+}
+.sinup {
+  margin-left: 90%;
+  margin-top: 2%;
+}
+h1 {
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 20%;
+  font-size: 40px;
+  width: 150%;
+}
+h2 {
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 27%;
+}
+.account {
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 35%;
+  width: 300px;
+  height: 50px;
+  background-color: white;
+  color: blue;
+}
+#corps1 {
+  height: 300px;
+}
+#corps1 img {
+  width: 70px;
+}
+.icons {
+  width: 150%;
+}
+.cal {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.env {
+  margin-left: 16%;
+}
+.meth {
+  margin-left: 17%;
+}
+.tit1, .tit2, .tit3 {
+  position: relative;
+  top: 30px;
+  display: inline-block;
+  font-size: 20px;
+}
+.tit1 {
+  display: inline-block;
+  margin-left: 16%;
+}
+.tit1 > p {
+  margin-left: -80px;
+  font-size: 15px
+}
+.tit2 {
+  margin-left: 16%;
+}
+.tit2 > p {
+  margin-left: -80px;
+  font-size: 15px
+}
+.tit3 {
+  margin-left: 15%;
+}
+.tit3 > p {
+  margin-left: -80px;
+  font-size: 15px
+}
+#corps2 {
+  height: 300px;
+  border: 1px solid black;
+  background-color: #F6F9FB;
+  color: #81767A;
+}
+h3, h4 {
+  text-align: center;
+}
+h3 {
+  margin-top: 80px;
+}
+.doll {
+  margin-left: 35%;
+  color: #7C7CB8;
+  font-size: 50px;
+}
+.doltitle {
+  color: #81767A;
+  position: relative;
+  top: -20px;
+  margin-left: 2%;
+  font-size: 30px;
+}
+.doltitle2 {
+  color: #9F9DB6;
+  margin-left: -270px;
+  font-size: 15px;
+}
+#corps3 {
+  height: 100px;
+  background-color: #4C535C;
+  color: white;
+  margin-top: -50px;
+}
+h5 {
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 30%;
+}
+#corps4 {
+  height: 400px;
+}
+.block1 {
+  width: 52%;
+  background-color: #7CD5EF;
+  height: 400px;
+}
+#corps4 > p {
+  position: relative;
+  top: -310px;
+  margin-left: 60%;
+  font-size: 30px;
+  width: 300px;
+  color: #7F676D;
+}
+#corps4 > p:nth-child(3), #corps4 > p:last-child {
+  font-size: 18px;
+  width: 370px;
+}
+.sblock {
+  position: relative;
+  width: 70%;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 15%;
+  top: 80px;
+  background-color: white;
+  z-index: 0;
+}
+.sblock2 {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border-radius: 10px;
+  background-color: #F1F0F0;
+}
+#corps5 {
+  z-index: 1;
+  width: 52%;
+  height: 400px;
+  background-color: green;
+}
+#corps5 > .bloctxt {
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+}
