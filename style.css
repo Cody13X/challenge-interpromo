@@ -5,7 +5,7 @@ html, body {
 header {
   position: relative;
   height: 550px;
-  background: url(images/payments-banner-graphic.png);
+  background: url(images/payments-banner-graphic.png) no-repeat;
   color: white;
 }
 #bb {
@@ -32,180 +32,361 @@ span:first-child {
   position: absolute;
 }
 .log {
-  margin-left: 80%;
+  margin-left: 88%;
   margin-top: 2%;
 }
 .sinup {
-  margin-left: 90%;
+  margin-left: 94%;
   margin-top: 2%;
 }
 h1 {
-  position: absolute;
-  margin-left: 6%;
-  margin-top: 20%;
+  position: relative;
+  display: inline-block;
+  margin-left: 20%;
+  margin-top: 12%;
   font-size: 40px;
-  width: 150%;
+  font-weight: lighter;
+  font-family: 'Oxygen', sans-serif;
 }
 h2 {
-  position: absolute;
-  margin-left: 30%;
-  margin-top: 27%;
+  position: relative;
+  display: inline-block;
+  margin-left: 38%;
+  margin-top: -4%;
+  font-weight: lighter;
 }
 .account {
-  position: absolute;
-  margin-left: 38%;
-  margin-top: 35%;
-  width: 300px;
+  position: relative;
+  display: block;
+  margin-left: 37%;
+  margin-top: 1%;
+  padding-left: 1%;
+  width: 330px;
   height: 50px;
   background-color: white;
-  color: blue;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: #9b80BE;
 }
 #corps1 {
-  height: 300px;
+  height: 320px;
 }
 #corps1 img {
   width: 70px;
 }
-.icons {
-  width: 150%;
-}
 .cal {
-  margin-left: 10%;
-  margin-top: 5%;
+  margin-left: 15%;
+  margin-top: 6%;
 }
 .env {
-  margin-left: 16%;
+  margin-left: 28%;
 }
 .meth {
-  margin-left: 17%;
+  margin-left: 26%;
 }
 .tit1, .tit2, .tit3 {
   position: relative;
   top: 30px;
   display: inline-block;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: lighter;
+  color: #524D4D
 }
 .tit1 {
   display: inline-block;
-  margin-left: 16%;
+  margin-left: 15%;
 }
 .tit1 > p {
   margin-left: -80px;
   font-size: 15px
 }
 .tit2 {
-  margin-left: 16%;
+  margin-left: 19%;
 }
 .tit2 > p {
   margin-left: -80px;
   font-size: 15px
 }
 .tit3 {
-  margin-left: 15%;
+  margin-left: 16%;
 }
 .tit3 > p {
   margin-left: -80px;
   font-size: 15px
 }
 #corps2 {
-  height: 300px;
-  border: 1px solid black;
+  height: 310px;
+  border: 1px solid #DADADA;
   background-color: #F6F9FB;
   color: #81767A;
 }
 h3, h4 {
   text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
 }
 h3 {
   margin-top: 80px;
 }
+h4 {
+  margin-top: -5px;
+}
 .doll {
-  margin-left: 35%;
+  margin-left: 37.5%;
   color: #7C7CB8;
-  font-size: 50px;
+  font-size: 70px;
 }
 .doltitle {
-  color: #81767A;
+  font-family: 'Oxygen', sans-serif;
+  color: black;
   position: relative;
-  top: -20px;
-  margin-left: 2%;
+  top: -24px;
+  margin-left: 1%;
   font-size: 30px;
 }
 .doltitle2 {
   color: #9F9DB6;
-  margin-left: -270px;
+  margin-left: -250px;
   font-size: 15px;
 }
 #corps3 {
+  font-family: 'Oxygen', sans-serif;
   height: 100px;
   background-color: #4C535C;
   color: white;
   margin-top: -50px;
 }
 h5 {
+  font-weight: lighter;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   position: relative;
   top: 30%;
 }
 #corps4 {
-  height: 400px;
+  height: 540px;
 }
 .block1 {
-  width: 52%;
+  width: 50%;
   background-color: #7CD5EF;
-  height: 400px;
+  height: 540px;
 }
 #corps4 > p {
+  font-family: 'Oxygen', sans-serif;
   position: relative;
-  top: -310px;
+  top: -440px;
   margin-left: 60%;
   font-size: 30px;
   width: 300px;
-  color: #7F676D;
+  color: #9A9E9E;
 }
 #corps4 > p:nth-child(3), #corps4 > p:last-child {
   font-size: 18px;
   width: 370px;
+  color: #AAAAAA;
 }
 .sblock {
   position: relative;
-  width: 70%;
-  height: 350px;
-  border: 1px solid black;
-  border-radius: 10px;
-  margin-left: 15%;
+  width: 83%;
+  height: 460px;
+  border: 1px;
+  border-radius: 15px 15px 0px 0px;
+  margin-left: 8%;
   top: 80px;
-  background-color: white;
-  z-index: 0;
-}
-.sblock2 {
-  position: relative;
-  width: 100%;
-  height: 70px;
-  border-radius: 10px;
-  background-color: #F1F0F0;
+  background: url(images/welcome-invoices-graphic-1.png);
 }
 #corps5 {
-  z-index: 1;
-  width: 52%;
-  height: 400px;
+  height: 516px;
 }
 #corps5 > .bloctxt {
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
   position: relative;
-  margin-left: 18%;
-  top: 20%;
-  font-size: 32px;
+  top: -35%;
+  margin-left: 10%;
+  font-size: 31px;
+  font-weight: lighter;
+  color: #9A9E9E;
   width: 350px;
 }
 #corps5 > .bloctxt > p:nth-child(2), p:last-child {
+  color: #AAAAAA;
   font-size: 18px;
 }
 #corps5 > .blocviolet {
   position: relative;
-  left: 100%;
-  top: -70%;
-  width: 450px;
-  height: 500px;
-  background-color: darkblue;
+  display: inline-block;
+  left: 14.4%;
+  width: 50%;
+  height: 516px;
+  background-color: #8080BE;
+}
+#corps5 > .blocviolet > .sblock2 {
+  position: relative;
+  width: 580px;
+  height: 436px;
+  top: 80px;
+  border: 1px ;
+  border-radius: 15px 15px 0px 0px;
+  margin-left: 8%;
+  background: url(images/welcome-invoices-graphic-2.png);
+}
+#corps6 {
+  height: 516px;
+}
+#corps6 > .blockl {
+  width: 50%;
+  height: 100%;
+  background-color: #7CD5EF;;
+}
+.sblock3 {
+  position: relative;
+  width: 84.5%;
+  height: 436px;
+  border: 1px;
+  border-radius: 15px 15px 0px 0px;
+  margin-left: 8%;
+  top: 80px;
+  background: url(images/welcome-invoices-graphic-3.png);
+}
+#corps6 > p {
+  font-family: 'Oxygen', sans-serif;
+  position: relative;
+  top: -420px;
+  margin-left: 60%;
+  font-size: 30px;
+  font-weight: lighter;
+  width: 250px;
+  color: #9A9E9E;
+}
+#corps6 > p:nth-child(3), #corps6 > p:last-child {
+  font-size: 18px;
+  width: 370px;
+  color: #AAAAAA;
+}
+#corps7 {
+  height: 300px;
+}
+#corps7 > .text {
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 38%;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: #9A9E9E;
+}
+#corps7 > .text p:nth-child(2){
+    position: relative;
+    top: -20px;
+    left: -35px;
+    font-size: 25px;
+}
+#corps7 p > strong {
+  color: black;
+}
+#corps7 > .account2 {
+  position: relative;
+  display: block;
+  margin-left: 42.5%;
+  margin-top: 2.5%;
+  width: 200px;
+  height: 45px;
+  background-color: white;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 15px;
+  color: white;
+  border-radius: 5px;
+  background-color: #00AF87;
+}
+footer {
+  background-color: black;
+  height: 400px;
+}
+footer > p {
+  color: #777777;
+  display: inline;
+  position: relative;
+  top: 60px;
+  margin-right: 155px;
+  font-size: 20px;
+}
+footer > p:first-child {
+  margin-left: 23%;
+}
+footer > ul > li {
+  margin-bottom: 1.5%;
+}
+footer > ul > li > a {
+  color: #AAA585;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.bl , .bc, .br {
+  position: relative;
+  list-style: none;
+}
+.bl > li, .bc > li, .br > li  {
+  display: inline;
+}
+.bl > li:nth-child(2) {
+  margin-left: 140px;
+}
+.bc > li:nth-child(2) {
+  margin-left: 150px;
+}
+.br > li:nth-child(2) {
+  margin-left: 184px;
+}
+.bl > li:last-child {
+  margin-left: 185px;
+}
+.bc > li:last-child {
+  margin-left: 195px;
+}
+.br > li:last-child {
+  color: #fff;
+  margin-left: 230px;
+}
+.bl {
+  margin-top: 6%;
+  margin-left: 20%;
+}
+.bc {
+  margin-top: 1%;
+  margin-left: 20%;
+}
+.br {
+  top: 1%;
+  margin-left: 20%;
+}
+footer > .bl > li > span, footer > .bc > li > span {
+  font-size: 15px;
+  color: #8E9580;
+}
+.parag > p {
+  font-size: 12px;
+  margin-top: 5%;
+  margin-left: 22.8%;
+  width: 500px;
+  color: #6F8061
+}
+.parag p > span {
+  color: #AAA585;
+}
+.logo {
+  display:inline-block;
+  position:relative;
+  float: right;
+  margin-top: -40px;
+  margin-right: 33%;
+  width: 114px;
+  height: 36px;
+  background: url(images/badge_blue.png);
+  background-color: blue;
 }
