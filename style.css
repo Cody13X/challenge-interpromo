@@ -6,6 +6,7 @@ header {
   position: relative;
   height: 550px;
   background: url(images/payments-banner-graphic.png) no-repeat;
+  background-size: 1665px 550px;
   color: white;
 }
 #bb {
